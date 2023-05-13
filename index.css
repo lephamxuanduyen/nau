@@ -1,0 +1,251 @@
+.th-1-icon {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 375px;
+  height: 530px;
+  object-fit: cover;
+}
+.frame-child,
+.rectangle {
+  position: absolute;
+  top: 676px;
+  left: 155px;
+  width: 65px;
+  height: 65px;
+}
+.rectangle {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.border,
+.cap-icon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  height: 100%;
+  width: 90.43%;
+  top: 0;
+  right: 9.57%;
+  bottom: 0;
+  left: 0;
+  border-radius: 2.67px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  opacity: 0.35;
+}
+.cap-icon {
+  height: 35.29%;
+  width: 5.46%;
+  top: 32.35%;
+  right: 0;
+  bottom: 32.35%;
+  left: 94.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.4;
+}
+.capacity {
+  position: absolute;
+  height: 64.71%;
+  width: 73.99%;
+  top: 17.65%;
+  right: 17.79%;
+  bottom: 17.65%;
+  left: 8.22%;
+  border-radius: 1.33px;
+  background-color: var(--color-white);
+}
+.battery {
+  position: absolute;
+  height: 25.76%;
+  width: 6.49%;
+  top: 39.39%;
+  right: 3.91%;
+  bottom: 34.85%;
+  left: 89.6%;
+}
+.wifi-icon {
+  position: absolute;
+  width: 15.27px;
+  height: 10.97px;
+  right: 13%;
+  top: 39.39%;
+}
+.cellular-connection-icon {
+  position: absolute;
+  width: 17px;
+  height: 10.67px;
+  top: 39.39%;
+  right: 20%;
+}
+.span {
+  letter-spacing: -0.28px;
+}
+.time {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 7.5px);
+  left: 0;
+  font-weight: 900;
+  display: inline-block;
+}
+.time-style {
+  position: absolute;
+  top: 13px;
+  left: 21px;
+  width: 54px;
+  height: 21px;
+}
+.iphone-xstatus-barsstatus-ba {
+  position: absolute;
+  height: 5.42%;
+  width: 100%;
+  top: -0.74%;
+  right: 2.13%;
+  bottom: 95.32%;
+  left: -2.13%;
+  font-size: var(--font-size-sm);
+}
+.chn-dung,
+.nh,
+.thm,
+.video {
+  position: absolute;
+  top: 579px;
+  letter-spacing: -0.41px;
+  font-weight: 500;
+  display: inline-block;
+  width: 67px;
+  height: 27px;
+}
+.nh {
+  left: 156px;
+  color: #fc0;
+}
+.chn-dung,
+.thm,
+.video {
+  left: 247px;
+}
+.chn-dung,
+.thm {
+  left: 2px;
+  width: 127px;
+}
+.thm {
+  left: 310px;
+}
+.frame-inner,
+.frame-item,
+.vector-icon {
+  position: absolute;
+  top: 689px;
+  left: 292px;
+  width: 40px;
+  height: 40px;
+}
+.frame-inner,
+.vector-icon {
+  left: 43px;
+}
+.vector-icon {
+  height: 2.22%;
+  width: 5.33%;
+  top: 86.21%;
+  right: 80.53%;
+  bottom: 11.58%;
+  left: 14.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-div {
+  position: absolute;
+  top: 31px;
+  left: 0;
+  background-color: var(--label-color-light-primary);
+  width: 375px;
+  height: 68px;
+}
+.vector-icon1,
+.vector-icon2 {
+  position: absolute;
+  height: 2.46%;
+  width: 5.33%;
+  top: 6.77%;
+  right: 8.53%;
+  bottom: 90.76%;
+  left: 86.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon2 {
+  height: 3.94%;
+  width: 4.27%;
+  top: 6.65%;
+  right: 88.53%;
+  bottom: 89.41%;
+  left: 7.2%;
+}
+.group-icon {
+  position: absolute;
+  top: 54px;
+  left: 174px;
+  width: 28.61px;
+  height: 26.99px;
+}
+.hdr {
+  position: absolute;
+  top: 49px;
+  left: 84px;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.41px;
+  font-weight: 600;
+  color: var(--color-darkgray-100);
+}
+.div,
+.group-child {
+  position: absolute;
+  top: 0;
+}
+.group-child {
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkgray-100);
+  width: 24px;
+  height: 24px;
+}
+.div {
+  left: 2px;
+  letter-spacing: -0.41px;
+  font-weight: 500;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 54px;
+  left: 251px;
+  width: 24px;
+  height: 24px;
+  font-size: var(--font-size-sm);
+  color: var(--label-color-light-primary);
+}
+.frame {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--label-color-light-primary);
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
